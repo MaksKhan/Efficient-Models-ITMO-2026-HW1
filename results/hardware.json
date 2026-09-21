@@ -1,0 +1,43 @@
+{
+  "gpu": "Tesla T4",
+  "gpu_total_memory_bytes": 15636037632,
+  "torch": "2.10.0+cu128",
+  "cuda": "12.8",
+  "cudnn": 91002,
+  "power_sensor_available": true,
+  "seed": 20260924,
+  "image_sizes": [
+    32,
+    64,
+    128,
+    160,
+    192,
+    224,
+    256,
+    272,
+    384,
+    480,
+    512
+  ],
+  "batch_sizes": [
+    1,
+    2,
+    4,
+    8,
+    16,
+    32,
+    64,
+    102,
+    128,
+    178,
+    244,
+    256
+  ],
+  "benchmark": false,
+  "cudnn_tf32": false,
+  "matmul_tf32": false,
+  "warmup_repeats_per_configuration": 10,
+  "energy_target_seconds": 3.0,
+  "energy_min_repeats": 10,
+  "energy_max_repeats": 10000
+}

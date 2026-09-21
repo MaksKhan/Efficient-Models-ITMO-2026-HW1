@@ -1,0 +1,54 @@
+{
+  "theta": {
+    "tau": 0.0005541669244029718,
+    "compute_rate": 2405113331108.8423,
+    "bandwidth": 79383345243.32596,
+    "power": 52.32443249908214,
+    "energy_per_flop": 5.0189909770387174e-12,
+    "energy_per_byte": 3.4530690974810155e-31
+  },
+  "train_count": 105,
+  "validation_count": 27,
+  "oom_count": 0,
+  "latency_fit_converged": true,
+  "latency_train": {
+    "n": 105,
+    "mape_pct": 24.58692217395394,
+    "median_ape_pct": 22.119026779271408,
+    "rmse": 0.024025583425513673
+  },
+  "memory_train": {
+    "n": 105,
+    "mape_pct": 33.24277193141779,
+    "median_ape_pct": 26.82707896047892,
+    "rmse": 270128478.21120465
+  },
+  "flops_bytes_correlation": 0.9999999999669459,
+  "energy_design_condition_number": 1756.9791376941494,
+  "power_unique_values_min": 15,
+  "energy_duration_min_s": 2.6453493270000195,
+  "latency_validation": {
+    "n": 27,
+    "mape_pct": 23.75474762337029,
+    "median_ape_pct": 19.449563201440007,
+    "rmse": 0.023217359364968815
+  },
+  "memory_validation": {
+    "n": 27,
+    "mape_pct": 34.07325024346815,
+    "median_ape_pct": 27.761623221533547,
+    "rmse": 287299030.7666734
+  },
+  "energy_train": {
+    "n": 105,
+    "mape_pct": 21.212172317313644,
+    "median_ape_pct": 21.4546086055734,
+    "rmse": 2.0992843961285037
+  },
+  "energy_validation": {
+    "n": 27,
+    "mape_pct": 19.998416939126262,
+    "median_ape_pct": 19.553502887686758,
+    "rmse": 2.020854591810859
+  }
+}
